@@ -28,7 +28,7 @@ export const ContainerStep3Component = () => {
                             <AdditionalName>{additional.name}</AdditionalName>
                             <NameDescription>{additional.description}</NameDescription>
                         </DivText>
-                        <PriceAdditional>R$ {additional.price + payment.suffix}</PriceAdditional>
+                        <PriceAdditional>$ {additional.price + payment.suffix}</PriceAdditional>
                     </Additional>
                 ))}
             </DivAdditionals>

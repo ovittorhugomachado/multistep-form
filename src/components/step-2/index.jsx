@@ -28,7 +28,7 @@ export const ContainerStep2Component = ({ register, errors, clearErrors }) => {
                             <img src={i.image} alt="" />
                             <TextPlan>
                                 <NamePlan>{i.name}</NamePlan>
-                                <PricePlan>R$ {i.price + payment.suffix}</PricePlan>
+                                <PricePlan>$ {i.price + payment.suffix}</PricePlan>
                             </TextPlan>
                             <Radio
                                 type="radio"
@@ -40,9 +40,9 @@ export const ContainerStep2Component = ({ register, errors, clearErrors }) => {
                     ))}
                     {errors.plan && <ErrorMessage style={{ color: "red" }}>{errors.plan.message}</ErrorMessage>}
                     <DivToggle>
-                        <TextToggle className={payment.suffix === "/mês" ? "active" : ""}>Monthly</TextToggle>
+                        <TextToggle className={payment.suffix === "/mo" ? "active" : ""}>Monthly</TextToggle>
                         <ButtonToggle prop={payment} onClick={changePayment} />
-                        <TextToggle className={payment.suffix === "/ano" ? "active" : ""}>Yearly</TextToggle>
+                        <TextToggle className={payment.suffix === "/yr" ? "active" : ""}>Yearly</TextToggle>
                     </DivToggle>
                     {errors.plan && <ErrorMessage style={{ color: "red" }}>{errors.plan.message}</ErrorMessage>}
                 </DivPlans>
