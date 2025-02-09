@@ -1,27 +1,25 @@
-# 👨‍💻 Desafio FrontEnd Mentor: Formulário multietapas #
+# 👨‍💻 FrontEnd Mentor Challenge: Multi-step form #
 
-
-## 🎯Objetivo :
- Este é um dos desafios da plataforma FrontEnd Mentor, com dificuldade avançada, minha intenção com esse desafio é praticar minhas habilidades em React, toda a inteface foi criada com a biblioteca de UI. 
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **HTML5**: Estrutura.
-- **CSS3**: Aplicação de estilos e transições.
-- **JavaScript**: Criação de arrays e condicionais.
-- **React**: Criação da inteface, com uso de componentes e estados (useState).
-- **Styled Components**: Criação de estilo global, podendo assim precisar reescrever as propriedades e estilos.
-- **React Hook Form**: Validação e gerenciamento do formulário.
-- **React Input Mask**: auto complete do input celular no formato desejado.
+## 🎯Objective:
+This is one of the challenges of the FrontEnd Mentor platform, with advanced difficulty. My intention with this challenge is to practice my React skills, the entire interface was created with the UI library.
 
 ---
 
-## 🎯 Funcionalidades Implementadas
-- **Acessibilidade**: Aplicação otimizada para leitores de tela.
-- **Boas Práticas de Código**: Uso de tags semânticas para melhor estruturação da página.
+## 🚀 Technologies Used
 
-## 🎨 Design da Página
-<img src="/gifs/design-desktop.gif" width="780px">           <img src="/gifs/design-mobile.gif" height="370px">
+- **HTML5**: Structure.
+- **CSS3**: Applying styles and transitions.
+- **JavaScript**: Creating arrays and conditionals.
+- **React**: Creating the interface, using components and states (useState).
+- **Styled Components**: Creating global styles, which may require rewriting properties and styles.
+- **React Hook Form**: Validating and managing the form.
+- **React Input Mask**: auto-completes the cell input in the desired format.
 
+---
+
+## 🎯 Implemented Features
+- **Accessibility**: Application optimized for screen readers.
+- **Good Coding Practices**: Use of semantic tags for better page structuring.
+
+## 🎨 Page Design
+<img src="/gifs/design-desktop.gif" width="780px"> <img src="/gifs/design-mobile.gif" height="370px">
